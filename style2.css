@@ -1,0 +1,103 @@
+img, object, embed, canvas, video, audio, picture {
+       max-width: 100%;
+       height: auto;
+}
+table {
+	border-collapse: collapse;
+	text-align : center;
+	margin: center; /*center les elements du tableau*/
+	position: center;
+	border: 1px;
+	padding: 1px;
+}/*les photos*/
+
+h1 {
+	color: green;
+	text-align: lef; /* ALIGNEMENT (LEFT, CENTER, RIGHT, JUSTIFY */
+	font-family: arial; /* TYPE D'ECRITURE */
+	letter-spacing : 5px; /* ESPACEMENT ENTRE LES LETTRES*/
+	font-weight: normal; /* RETIRER LE GRAS (BOLD)*/
+	text-transform: uppercase;/*METTRE EN MAJUSCULE*/
+	border: 1px 1px 1px 1px green; /* BORDURE*/
+	border-radius: 30px 30px 0px 0px; /*ARRONDIE DANS LE SENS DES AIGUILLES D'UNE MONTRE*/
+	padding: 1px; /*ESPACEMENT A L'INTERIEUR DU BLOC*/
+	box-shadow: 0px 0px 0px; /*OMBRAGE DU TITRE*/
+	
+}
+h2 {
+	color: green;
+	text-align: center; /* ALIGNEMENT (LEFT, CENTER, RIGHT, JUSTIFY */
+	font-family: arial; /* TYPE D'ECRITURE */
+	letter-spacing : 3px; /* ESPACEMENT ENTRE LES LETTRES*/
+	font-weight: normal; /* RETIRER LE GRAS (BOLD)*/
+	text-transform: none;/*METTRE EN MAJUSCULE uppercase*/
+	border: 0px groove green; /* BORDURE*/
+	border-radius: 30px 30px 30px 30px; /*ARRONDIE DANS LE SENS DES AIGUILLES D'UNE MONTRE*/
+	padding: 1px; /*ESPACEMENT A L'INTERIEUR DU BLOC*/
+	box-shadow: 3px 3px 0px; /*OMBRAGE DU TITRE*/
+	
+}
+
+h3{
+	color: green;
+	text-align: center; /* ALIGNEMENT (LEFT, CENTER, RIGHT, JUSTIFY */
+	font-family: arial; /* TYPE D'ECRITURE */
+	letter-spacing : 5px; /* ESPACEMENT ENTRE LES LETTRES*/
+	font-weight: normal; /* RETIRER LE GRAS (BOLD)*/
+	text-transform: uppercase;/*METTRE EN MAJUSCULE*/
+	border: 1px 1px 1px 1px black; /* BORDURE*/
+	border-radius: 30px 30px 0px 0px; /*ARRONDIE DANS LE SENS DES AIGUILLES D'UNE MONTRE*/
+	padding: 5px; /*ESPACEMENT A L'INTERIEUR DU BLOC*/
+	box-shadow: 0px 0px 0px; /*OMBRAGE DU TITRE*/
+}
+
+nav{
+	background-color: white;
+	padding: 5px;
+	text-align: left;
+}/*logo insta facebook*/
+
+li{
+	list-style-type: none; /* STYLE DES LISTE AVEC PUCES (circle, disc, hiragana(japonnais), square, decimal)*/
+	display: inline-block; /*  */
+	margin: 0 3px 0 0;
+}
+
+
+td{
+	border: 1px solid green;
+	padding: 1px;
+	position: center;
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;	/*RETIRER LA BARRE*/
+	color : green;
+	font-size: 1px;
+}
+a:hover {
+	color: green;
+}
+a:active {
+	color: green;
+}
+p {
+	color: #206310;
+	text-align: center; /* ALIGNEMENT (LEFT, CENTER, RIGHT, JUSTIFY */
+	font-family: arial; /* TYPE D'ECRITURE */
+	letter-spacing : 5px; /* ESPACEMENT ENTRE LES LETTRES*/
+	font-weight: normal; /* RETIRER LE GRAS (BOLD)*/
+	text-transform: uppercase;/*METTRE EN MAJUSCULE*/
+	border: 1px 1px 1px 1px green; /* BORDURE*/
+	border-radius: 30px 30px 0px 0px; /*ARRONDIE DANS LE SENS DES AIGUILLES D'UNE MONTRE*/
+	padding: 1px; /*ESPACEMENT A L'INTERIEUR DU BLOC*/
+	box-shadow: 0px 0px 0px; /*OMBRAGE DU TITRE*/
+}
+body{
+	background-image:url"img/petiteferme.jpg";
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	margin:00;
+}
+
